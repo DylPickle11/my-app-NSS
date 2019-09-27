@@ -1,0 +1,20 @@
+{
+    "animals": [
+        { "id": 1, "name": "Doodles", "breed": "Poodle"},
+        { "id": 2, "name": "Decker", "breed": "German Sheperd" },
+        { "id": 3, "name": "Esme", "breed": "Pitbull" }
+    ],
+    "employees": [
+        {"id": 1, "name": "Marty Han", "position":"Dog Groomer"},
+        {"id": 2, "name": "Susie Coliins", "position":"Sales Clerk"},
+        {"id": 3, "name": "Ned Den", "position":"Veterinarian"}
+    ],
+    "locations": [
+        {"id": 1, "name": "M" ,"phoneNumber": "1-800-bow-meow"},
+        {"id": 2, "name": "Ms. Kit of Kat" ,"phoneNumber": "1-800-bow-meow"}
+    ],
+    "owners": [
+        {"id": 1, "name": "Mr. Kit of Kat" ,"phoneNumber": "1-800-bow-meow"},
+        {"id": 2, "name": "Ms. Kit of Kat" ,"phoneNumber": "1-800-bow-meow"}
+    ]
+}
