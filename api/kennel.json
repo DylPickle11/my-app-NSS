@@ -10,8 +10,8 @@
         {"id": 3, "name": "Ned Den", "position":"Veterinarian"}
     ],
     "locations": [
-        {"id": 1, "name": "M" ,"phoneNumber": "1-800-bow-meow"},
-        {"id": 2, "name": "Ms. Kit of Kat" ,"phoneNumber": "1-800-bow-meow"}
+        {"id": 1, "name": "Nashville True East", "address": "500 puppy way", "phoneNumber": "1-800-bark"},
+        {"id": 2, "name": "Nashville South", "address": "500 puppy lane", "phoneNumber": "1-800-howl"}
     ],
     "owners": [
         {"id": 1, "name": "Mr. Kit of Kat" ,"phoneNumber": "1-800-bow-meow"},

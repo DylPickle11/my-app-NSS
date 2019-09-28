@@ -8,12 +8,13 @@ class LocationCard extends Component {
               <picture>
               <img src={require('./dogInn.jpg')} alt="The Employee" />
               </picture>
-             <h3>Name: <span className="card-employName">Marty Han</span></h3>
-             <p>Position: Dog Groomer</p>
+             <h3>name: <span className="card-employName">{this.props.location.name}</span></h3>
+             <p>address:{this.props.location.address}</p>
+             <p>Phone number:{this.props.location.phoneNumber}</p>
             </div>
          </div>
     );
+        }
   }
-}
 
 export default LocationCard
