@@ -26,10 +26,22 @@ render(){
 
     return(
         <div className="container-cards">
-            {this.state.locations.map(location => <LocationCard key={location.id} location={location}/>)}
+            {this.state.locations.map(location => <LocationCard key={location.id} locataco={location} deleteLocation={this.deleteLocation} {...this.props}/>)}
         </div>
     )
 }
+
+deleteLocation = id => {
+    AnimalManager.delete("locations", id)
+    .then(() => {
+      AnimalManager.getAll("locations")
+      .then((newLocations) => {
+        this.setState({
+            locations: newLocations
+        })
+      })
+    })
+  }
 }
 
 export default LocationList

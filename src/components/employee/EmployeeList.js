@@ -25,10 +25,23 @@ render(){
 
     return(
         <div className="container-cards">
-            {this.state.employees.map(employee => <EmployeeCard key={employee.id} employee={employee}/>)}
+            {this.state.employees.map(employee => <EmployeeCard key={employee.id} employee={employee} deleteEmployees={this.deleteEmployees} {...this.props}/>)}
         </div>
     )
 }
+deleteEmployees = id => {
+    AnimalManager.delete("employees", id)
+    .then(() => {
+      AnimalManager.getAll("employees")
+      .then((newEmployees) => {
+        this.setState({
+            employees: newEmployees
+        })
+      })
+    })
+  }
 }
+
+
 
 export default EmployeeList

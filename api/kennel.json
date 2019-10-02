@@ -1,20 +1,54 @@
 {
-    "animals": [
-        { "id": 1, "name": "Doodles", "breed": "Poodle"},
-        { "id": 2, "name": "Decker", "breed": "German Sheperd" },
-        { "id": 3, "name": "Esme", "breed": "Pitbull" }
-    ],
-    "employees": [
-        {"id": 1, "name": "Marty Han", "position":"Dog Groomer"},
-        {"id": 2, "name": "Susie Coliins", "position":"Sales Clerk"},
-        {"id": 3, "name": "Ned Den", "position":"Veterinarian"}
-    ],
-    "locations": [
-        {"id": 1, "name": "Nashville True East", "address": "500 puppy way", "phoneNumber": "1-800-bark"},
-        {"id": 2, "name": "Nashville South", "address": "500 puppy lane", "phoneNumber": "1-800-howl"}
-    ],
-    "owners": [
-        {"id": 1, "name": "Mr. Kit of Kat" ,"phoneNumber": "1-800-bow-meow"},
-        {"id": 2, "name": "Ms. Kit of Kat" ,"phoneNumber": "1-800-bow-meow"}
-    ]
+  "animals": [
+    {
+      "name": "Kourtney",
+      "breed": "Kooikerhondje",
+      "image": "./img/teacupPuppy.jpg",
+      "id": 4
+    }
+  ],
+  "employees": [
+    {
+      "id": 1,
+      "name": "Marty Han",
+      "position": "Dog Groomer"
+    }
+  ],
+  "locations": [
+    {
+      "id": 1,
+      "name": "nashville true east",
+      "address": "500 puppy way",
+      "phoneNumber": "1-800-bark"
+    },
+    {
+      "id": 3,
+      "name": "nashville kinda true east",
+      "address": "500 puppy way",
+      "phoneNumber": "1-800-bark"
+    },
+    {
+      "id": 4,
+      "name": "Nashville Really True East",
+      "address": "500 puppy way",
+      "phoneNumber": "1-800-bark"
+    }
+  ],
+  "owners": [
+    {
+      "id": 1,
+      "name": "Mr. Kit of Kat",
+      "phoneNumber": "1-800-bow-meow"
+    },
+    {
+      "id": 4,
+      "name": "Mr. Kit of Kat 4",
+      "phoneNumber": "1-800-bow-meow cool"
+    },
+    {
+      "id": 5,
+      "name": "Mr. Kit of Kat 5",
+      "phoneNumber": "1-800-bow-meow"
+    }
+  ]
 }
